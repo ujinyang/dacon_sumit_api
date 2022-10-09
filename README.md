@@ -12,7 +12,7 @@ DACON 사이트에서 사용하는 제출용 API package
 from dacon_submit_api import dacon_submit_api 
 
 result = dacon_submit_api.post_submission_file(
-'파일경로',             # submission.zip
+'파일경로',             # ./data/submission.csv
 '개인 Token',           # 계정정보에서 발급받아야 함.
 '대회ID',               # 대회ID는 URL에 표시되는 숫자 (ex. AI 양재허브 인공지능 오픈소스 경진대회 : 235977 )
 '팀이름',               # 팀이름 : basslibrary
